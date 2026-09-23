@@ -70,3 +70,4 @@ export const Vacancy = ({vacancy}: VacancyProps) => {
         </Paper>
     )
 }
+<h1></h1>
