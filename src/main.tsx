@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/5.3.3-Adding-a-route-Layout-Link-and-useMatch">
+      <BrowserRouter basename="/5.3.3-Adding-a-route--Layout--Link--and-useMatch">
         <App />
       </BrowserRouter>
     </Provider>
