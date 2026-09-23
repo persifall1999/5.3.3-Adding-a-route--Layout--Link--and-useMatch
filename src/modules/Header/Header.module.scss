@@ -1,0 +1,74 @@
+.headerBox {
+    background-color: #FFFFFF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 22.5px 0px #1C1D1F0D;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+.headerContainer {
+    width: 100%;
+}
+
+.logoGroup {
+    cursor: pointer; 
+    flex-shrink: 0;
+    width: 138px;
+    &:hover {
+        filter: blur(0.5px)
+    }
+}
+
+.logoImg {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.groupPages {
+    flex-grow: 1;
+}
+
+.navLinkWrapper {
+    text-decoration: none;
+}
+
+.pageItem {
+    cursor: pointer;
+    position: relative;
+    padding: 8px 0;
+    color: #0F0F1080; 
+
+    &:hover {
+        filter: blur(0.4px);
+    }
+}
+
+.vacancyText, .aboutText {
+    font-size: 14px;
+}
+
+.pageIndicator {
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #4263EB; 
+}
+
+.navLinkWrapper:global(.active) {
+    .pageItem {
+        color: #0F0F10; 
+    }
+    
+    svg {
+        color: #0F0F10; 
+    }
+}
+
+.plug {
+    width: 138px;
+    flex-shrink: 0;
+}

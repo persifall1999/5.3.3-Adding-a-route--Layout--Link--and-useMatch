@@ -1,0 +1,29 @@
+.containerNotFound {
+    max-width: 800px;
+    margin: 40px auto 0 auto;
+}
+
+.paperNotFound {
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.titleText {
+  line-height: 1.2; 
+}
+
+.buttonHome {
+  font-weight: 400;
+}
+
+.gifWrapper {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.gifImg {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}

@@ -1,0 +1,30 @@
+.tabsRoot {
+  margin-bottom: 12px;
+}
+
+.tabsList {
+  display: flex;
+  gap: 16px; 
+}
+
+.tabsControl {
+  padding: 8px 6px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0F0F10; 
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  border-bottom: 2px solid transparent; 
+
+  &:hover {
+    color: #0F0F1080; 
+  }
+
+  &[data-active] {
+    color: #0F0F10; 
+    font-weight: 400; 
+    border-bottom: 2px solid #4263EB;
+  }
+}

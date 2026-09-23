@@ -1,0 +1,22 @@
+.groupSearch {
+    width: 100%;
+}
+
+.searchInput {
+    flex: 1;
+}
+
+.customInput {
+    height: 42px;
+    border-radius: 8px;
+    border-color: #0F0F1020;
+    border-width: 1px;
+}
+
+.searchButton {
+    border: none;
+    &:hover {
+        opacity: 0.9
+    }
+}
+

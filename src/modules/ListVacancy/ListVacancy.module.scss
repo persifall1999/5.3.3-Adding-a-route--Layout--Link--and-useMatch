@@ -1,0 +1,66 @@
+.listBox {
+    width: 100%;
+}
+
+.titleSearch {
+    width: 100%;
+    border-bottom: 1px solid #0F0F1015;
+}
+
+.upperContainer {
+     max-width: 1200px;
+     width: 100%;
+     margin: 0 auto;
+}
+
+.upperBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.titleBox {
+    flex-shrink: 0;
+}
+
+.titleText {
+    line-height: 1.35;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+.underTitleText {
+    color: #0F0F1080; 
+    white-space: nowrap;
+}
+
+.inputBox {
+    flex-grow: 1;
+    max-width: 508px;
+    width: 100%;
+}
+
+.lowerContainer {
+    max-width: 1200px; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+.centerError {
+    height: 200px;
+}
+
+.textError {
+    color: #f65b5b;
+}
+
+.centerLoading {
+    height: 200px;
+}
+
+.noFindVacancy {
+    color: #0F0F1080;
+}
+
+
